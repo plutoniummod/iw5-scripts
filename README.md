@@ -2,7 +2,6 @@
 This repository contains all script files used in Plutonium IW5.
 
 ## Common
-
 - ``/codescripts/character``
 - ``/codescripts/delete``
 - ``/codescripts/level``
@@ -35,7 +34,7 @@ This repository contains all script files used in Plutonium IW5.
 - ``/common_scripts/utility``
 
 ## Multiplayer
-
+### Common
 - ``/maps/mp/_animatedmodels``
 - ``/maps/mp/_areas``
 - ``/maps/mp/_art``
@@ -65,6 +64,7 @@ This repository contains all script files used in Plutonium IW5.
 - ``/maps/mp/_skill``
 - ``/maps/mp/_stinger``
 - ``/maps/mp/_utility``
+### Gametypes
 - ``/maps/mp/gametypes/_battlechatter_mp``
 - ``/maps/mp/gametypes/_callbacksetup``
 - ``/maps/mp/gametypes/_class``
@@ -126,6 +126,7 @@ This repository contains all script files used in Plutonium IW5.
 - ``/maps/mp/gametypes/tjugg``
 - ``/maps/mp/gametypes/vip``
 - ``/maps/mp/gametypes/war``
+### Killstreaks
 - ``/maps/mp/killstreaks/_a10``
 - ``/maps/mp/killstreaks/_aamissile``
 - ``/maps/mp/killstreaks/_aastrike``
@@ -157,11 +158,11 @@ This repository contains all script files used in Plutonium IW5.
 - ``/maps/mp/killstreaks/_tank``
 - ``/maps/mp/killstreaks/_teamammorefill``
 - ``/maps/mp/killstreaks/_uav``
+### Perks
 - ``/maps/mp/perks/_perkfunctions``
 - ``/maps/mp/perks/_perks``
 
 ## Multiplayer Maps
-
 ### Aground
 - ``/maps/mp/mp_aground_ss``
 - ``/maps/mp/mp_aground_ss_fx``
@@ -176,7 +177,6 @@ This repository contains all script files used in Plutonium IW5.
 - ``/maps/createfx/mp_alpha_fx``
 - ``/maps/createart/mp_alpha_art``
 - ``/maps/createart/mp_alpha_fog``
-
 ### Boardwalk
 - ``/maps/mp/mp_boardwalk``
 - ``/maps/mp/mp_boardwalk_fx``
@@ -420,18 +420,18 @@ This repository contains all script files used in Plutonium IW5.
 
 ## Singleplayer Maps
 
+## Singleplayer AI
+- ``/aitype/**``
+
+## Singleplayer Animation
+- ``/animscripts/**``
+
+## Singleplayer Vehicles
+- ``/vehicle_scripts/**``
+
 ## Character Suits
 - ``/character/**``
 - ``/mptype/**``
-
-## SinglePlayer AI
-- ``/aitype/**``
-
-## SinglePlayer Animation
-- ``/animscripts/**``
-
-## SinglePlayer Vehicles
-- ``/vehicle_scripts/**``
 
 ## Models
 - ``/xmodelalias/**``
